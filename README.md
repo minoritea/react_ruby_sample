@@ -1,7 +1,10 @@
 # Sample notepad app with ReactRuby
 
-##Usage
+##Isomorphic view
+ReactRuby gives you ability to easily wrote reusable templates for both server-side and client-side
+ in your web applicatoin.
 
-$ bundle install
-$ ruby application.rb
+##Usage
+    $ bundle install
+    $ ruby application.rb
 
