@@ -10,11 +10,11 @@ NotePad = React.createClass({
       });
   },
   render: function(){
-		return <ol>{
-			  this.props.notes.map(function(note){
+    return <ol>{
+        this.props.notes.map(function(note){
           return <li>{note}</li>;
-				})
-			}</ol>
+        })
+      }</ol>
     ;
   }
 });
